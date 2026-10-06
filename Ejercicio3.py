@@ -39,3 +39,4 @@ class IteradorPilaEvoluciones:
         evolucion = self.actual
         self.actual = self.actual.siguiente
         return evolucion
+        
