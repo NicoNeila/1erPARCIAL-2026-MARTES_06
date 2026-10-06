@@ -10,5 +10,8 @@ class Pokemon:
     
     def __str__(self):
         return "Nombre: " + self.nombre + ", Tipo: " + self.tipo + ", Nivel: " + str(self.nivel)
-    
-    
+
+class Entrenador:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        self.equipo = []    
