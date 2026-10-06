@@ -15,3 +15,13 @@ class Entrenador:
     def __init__(self, nombre):
         self.nombre = nombre
         self.equipo = []    
+    
+        def agregar_pokemon(self, pokemon):
+        if len(self.equipo) == 6:
+            print("No se pueden tener mas de 6 Pokemon en el equipo.")
+        else:
+            self.equipo.append(pokemon)
+
+    def mostrar_equipo(self):
+        for pokemon in self.equipo:
+            print(pokemon)
